@@ -2,7 +2,7 @@
   description = "this segfaults";
   inputs.nixpkgs.url = "nixpkgs/nixos-20.09";
   inputs.segfaults = {
-    url = "git+file:./.";
+    url = "git+file:.";
     flake = false;
   };
 
